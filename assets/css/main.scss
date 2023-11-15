@@ -1,0 +1,54 @@
+// Variables
+
+
+// Styling //
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+//Nav
+nav{
+    background-color: red;
+    height: 5vh;
+    
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+        color: white;
+
+        li{
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
+
+
+
+//Main
+main{
+    background-color: grey;
+    
+
+
+    section{
+        height: 20px;
+        margin-bottom: 20px;
+        background-color: black ;
+    }
+}
+
+.hero-slider{
+    // height: 45vh;
+
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
